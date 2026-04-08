@@ -1,2 +1,3 @@
 # ctrdx-docs
-Documentation for Cut the Rope: DX codebase
+
+Documentation for _Cut the Rope: DX_ codebase
