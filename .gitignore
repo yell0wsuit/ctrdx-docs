@@ -137,3 +137,8 @@ dist
 
 # macOS .DS_Store begone
 .DS_Store
+
+# Production
+/build
+
+.cache-loader
