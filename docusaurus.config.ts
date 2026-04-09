@@ -35,6 +35,13 @@ const config: Config = {
         locales: ["en"],
     },
 
+    markdown: {
+        // Parse `.md` as CommonMark and `.mdx` as MDX. Generated API docs are
+        // `.md` and use the `{#id}` explicit-heading-id syntax, which MDX would
+        // otherwise try to evaluate as a JSX expression.
+        format: "detect",
+    },
+
     presets: [
         [
             "classic",
