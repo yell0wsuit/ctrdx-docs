@@ -1,6 +1,7 @@
 ---
 title: CutTheRopeDX
 description: API namespace CutTheRopeDX.
+sidebar_position: 1
 ---
 
 # CutTheRopeDX
