@@ -25,6 +25,17 @@ const config: Config = {
         format: "detect",
     },
 
+    themes: [
+        [
+            "@easyops-cn/docusaurus-search-local",
+            {
+                hashed: true,
+                docsRouteBasePath: "/",
+                explicitSearchResultPath: true,
+            },
+        ],
+    ],
+
     presets: [
         [
             "classic",
