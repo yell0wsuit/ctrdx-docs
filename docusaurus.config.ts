@@ -11,8 +11,8 @@ const config: Config = {
         v4: true,
     },
 
-    url: "https://yell0wsuit.github.io/ctrdx-docs",
-    baseUrl: "/",
+    url: "https://yell0wsuit.github.io",
+    baseUrl: "/ctrdx-docs/",
 
     onBrokenLinks: "throw",
 
