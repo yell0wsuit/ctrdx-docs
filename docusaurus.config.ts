@@ -3,15 +3,15 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-    title: "Cut the Rope DX Docs",
+    title: "Cut the Rope\: DX Docs",
     tagline: "Codebase documentation for Cut the Rope DX",
-    favicon: "img/favicon.ico",
+    favicon: "img/favicon.png",
 
     future: {
         v4: true,
     },
 
-    url: "https://your-docusaurus-site.example.com",
+    url: "https://yell0wsuit.github.io/ctrdx-docs",
     baseUrl: "/",
 
     onBrokenLinks: "throw",
@@ -46,7 +46,11 @@ const config: Config = {
             respectPrefersColorScheme: true,
         },
         navbar: {
-            title: "Cut the Rope DX Docs",
+            title: "Cut the Rope\: DX Docs",
+            logo: {
+                alt: "Cut the Rope DX",
+                src: "img/logo.png",
+            },
             items: [
                 {
                     type: "docSidebar",
